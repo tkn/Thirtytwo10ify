@@ -14,7 +14,7 @@
 	background-size:contain;
 	width:387px;
 	height:640px;
-	float:left;
+	float:right;
 }
 
 .innerpre {
@@ -37,7 +37,7 @@
 	background-size:contain;
 	width:301px;
 	height:640px;
-	float:right;
+	float:left;
 	position:relative;
 	top:4px;
 }
@@ -88,6 +88,11 @@
     border-color: #4cae4c;
     position: relative;
     overflow: hidden;
+}
+
+.fileinput-button:hover {
+	text-shadow: 0 0 0.1em #e8edf2;
+	box-shadow: 0 0 1em 0.4em #e8edf2;
 }
 
 .fileinput-button input {
