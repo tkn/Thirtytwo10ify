@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Raleway);
+
+.main {
+	position: relative;
+	width:850px;
+	top: -63px;
+	z-index: -1;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.outerpre {
+	background-image:url('smartphone.png');
+	background-size:contain;
+	width:387px;
+	height:640px;
+	float:left;
+}
+
+.innerpre {
+	position:relative;
+	top:89px;
+	height:451px;
+	left:25px;
+	width:337px;
+	text-align:center;
+}
+
+#original {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.outerpost {
+	background-image:url('cellphone.png');
+	background-size:contain;
+	width:301px;
+	height:640px;
+	float:right;
+	position:relative;
+	top:4px;
+}
+
+.innerpost {
+	position:relative;
+	top:67px;
+	height:276px;
+	left:44px;
+	width:215px;
+	text-align:center;
+}
+
+#img1999 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+	font-family:Lobster;
+	font-size:10em;
+	text-shadow: 0 0 0.2em #e8edf2;
+}
+
+/*Copied from bootstrap */
+.fileinput-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 0 1em #e8edf2;   
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    position: relative;
+    overflow: hidden;
+}
+
+.fileinput-button input {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter:'alpha(opacity=0)';
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+    height:110%;
+    top: 50%;
+  	transform: translateY(-50%);
+}
+
+body {
+	height:800px;
+	font-family:Raleway;
+	text-align:center;
+	background: #e8edf2; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #e8edf2 0%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e8edf2), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #e8edf2 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #e8edf2 0%,#7db9e8 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #e8edf2 0%,#7db9e8 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #e8edf2 0%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8edf2', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
