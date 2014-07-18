@@ -44,7 +44,6 @@ function processImage(src, dest, w, h, scale, smooth) {
 	    canvas.width *= scale;
 	    canvas.height *= scale;
 	    ctx.drawImage(dest, 0, 0, dest.width, dest.height, 0, 0, canvas.width, canvas.height);
+	    dest.src = canvas.toDataURL();
 	}
-    
-    dest.src = canvas.toDataURL();
 }
