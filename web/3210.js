@@ -46,7 +46,7 @@ function processImage(src, dest, w, h, scale, smooth) {
 	if(scale != 1) {
     	canvasScaled.width = canvas.width * scale;
 		canvasScaled.height = canvas.height * scale;
-		ctxScaled.drawImage(canvas, 0, 0, w, h, 0, 0, canvasScaled.width, canvasScaled.height);
+		ctxScaled.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, canvasScaled.width, canvasScaled.height);
 	} else {
 		canvasScaled = canvas;
 	}
